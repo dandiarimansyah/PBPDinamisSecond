@@ -1,0 +1,236 @@
+body {
+    background-color: #fffbe6;
+}
+
+.postingan .rectangle {
+    margin-left: 100px;
+    width: 900px;
+    height: 10px;
+    background: rgb(126, 212, 212);
+}
+
+.postingan h1 {
+    color: rgb(36, 139, 139);
+}
+
+.jumbotron {
+    margin-bottom: 30px;
+    padding-bottom: 300px;
+    background-image: url("../gambar/writer2.png");
+    background-size: 100% 100%;
+    /* opacity: 70%; */
+}
+
+.tombol {
+    padding: 10px;
+    font-size: 20px;
+}
+
+.tombol2 {
+    padding: 10px;
+    font-size: 20px;
+}
+
+.tombol3 {
+    margin: 0;
+    background-color: rgb(148, 81, 0);
+    color: rgb(255, 255, 255);
+}
+
+.tombol4 {
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.tombol5 {
+    background-color: red;
+    color: white;
+    margin: 0;
+}
+
+.tombol6 {
+    margin: 0;
+    margin-top: 150px;
+    margin-left: 180px;
+}
+
+.search {
+    border-radius: 30px;
+    margin-left: 30px;
+    height: 40px;
+    width: 450px;
+    text-align: center;
+}
+
+nav {
+    margin: 0;
+    background-color: rgb(255, 234, 163);
+    height: 100px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+nav ul li {
+    margin-right: 30px;
+}
+
+nav #judul {
+    color: darkcyan;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.post {
+    padding: 0;
+    margin-left: 20px;
+    margin-top: 35px;
+    margin-bottom: 50px;
+    text-align: justify;
+}
+
+.postingan {
+    text-align: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.tiap {
+    background-color: rgb(36, 139, 139);
+    border-width: 7px;
+    border-color: wheat;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 22rem;
+    height: 24rem;
+}
+
+.text {
+    background-color: whitesmoke;
+    width: 100%;
+}
+
+.judul_post {
+    color: rgb(143, 133, 0);
+    text-align: left;
+    font-weight: bolder;
+}
+
+.postingan .kategori {
+    margin-top: 20px;
+    margin-left: 35px;
+    text-align: left;
+    font-size: 20px;
+}
+
+.gambar_post {
+    padding: 10px;
+    max-width: 200px;
+    max-height: 150px;
+}
+
+.gambar_detail {
+    max-width: 350px;
+}
+
+.pencarian {
+    min-height: 70vh;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pencarian .hasil {
+    padding: 20px;
+    background-color: white;
+}
+
+.review {
+    margin-top: 30px;
+    margin-left: 100px;
+    text-align: center;
+    width: 900px;
+}
+
+.tulisanrev {
+    color: black;
+    background-color: rgb(255, 224, 205);
+    width: 870px;
+    margin-left: -120px;
+}
+
+.error {
+    color: red;
+    display: none;
+}
+
+footer {
+    bottom: 0;
+    margin-top: 50px;
+    background-color: rgb(255, 234, 163);
+}
+
+#anggota {
+    font-size: 15pt;
+}
+
+.main-content {
+    display: flex;
+}
+
+.main-content .box {
+    flex-basis: 50%;
+    padding: 10px 20px;
+}
+
+.box h2 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.box .content {
+    margin: 20px 0 0 0;
+}
+
+.left .content p {
+    text-align: justify;
+}
+
+.deskripsi {
+    margin-top: 40px;
+    font-size: 15pt;
+}
+
+.detailpost {
+    margin: 50px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.komentar {
+    margin-top: 30px;
+    padding: 0;
+}
+
+.komen {
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.komen h5 {
+    color: darkblue;
+}
+
+.komen p {
+    border-style: solid;
+    padding: 10px;
+}
+
+.peringatan {
+    color: red;
+    margin-top: 20px;
+}
